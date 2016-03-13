@@ -58,8 +58,6 @@ par(mfrow = c(1,1))
 # from item to item or observation to observation.As we explore each of the experimental designs and 
 # their associated analysis. This  statistical technique is attempting to "break down" 
 # the total variance among the objects being studied into possible causes.
-# In the case of the valve openings, this variance of measurements might 
-# be due to the variation between the regions as well as an unexplained error variation.
 
 aov.region <- aov(Expenditure~region, college)
 summary(aov.region)
